@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Programming Language Selector</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Programming Language Selector</title>
+  </head>
 
-<body>
-  <div class="jumbotron">
-    <h1><strong>Programming Languages and you</strong></h1>
-    <p><em>Please take the time to fill out this brief survey to find out which language would work best for you</em></p>
-  </div>
-  <div class="container">
-    <h2>Please select one answer for each field</h2>
-    <form id="name">
-      <div class="form-group">
-        <label for="name">Please enter you name</label>
-        <input id="name" class="form-control" type="text">
+  <body>
+    <div class="jumbotron">
+      <h1><strong>Programming Languages and you</strong></h1>
+      <p><em>Please take the time to fill out this brief survey to find out which language would work best for you</em></p>
+    </div>
+    <div class="container">
+      <h2>Please select one answer for each field</h2>
+      <form id="name">
+        <div class="form-group">
+          <label for="name">Please enter you name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Enter</button>
+      </form>
+    </div>
+
+    <div class="languages">
+      <div id="ruby">
+        <p>Ruby is used for simulations, 3D modeling, and to manage and track information.</p>
+        <a href="https://www.ruby-lang.org/en/">Learn more about Ruby here</a>
       </div>
-    </form>
-  </div>
-
-  <div class="languages">
-    <div id="ruby">
-      <p></p>
+      <div id="c#">
+        <p>C# helps developers create XML web services and Microsoft .NET-connected applications for Windows operating systems and the internet.</p>
+        <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">Learn more about C# here!</a>
+      </div>
+      <div id="javaScript">
+        <p>JavaScript is used primarily in Web development to manipulate various page elements and make them more dynamic, including scrolling abilities, printing the time and date, creating a calendar and other tasks not possible through plain HTML. It can also be used to create games and APIs.</p>
+        <a href="https://www.javascript.com/">Learn more about JavaScript here!</a>
+      </div>
+      <div id="python">
+        <p>Python lets you work quickly to integrate systems as a scripting or glue language. It’s also suited for Rapid Application Develop (RAD).</p>
+        <a href="https://www.python.org/">Learn more about Python here!</a>
+      </div>
+      <div id="swift">
+        <p>Swift is primarily used by developers to create apps for iOS and OS X.</p>
+        <a href="https://developer.apple.com/swift/">Learn more about Swift here!</a>
+      </div>
     </div>
-    <div id="c##">
-
-    </div>
-    <div id="javaScript">
-
-    </div>
-    <div id="python">
-
-    </div>
-    <div id="swift">
-
-    </div>
-  </div>
-</body>
+  </body>
 </html>
