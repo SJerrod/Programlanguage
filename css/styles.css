@@ -1,4 +1,4 @@
-#choice {
+#choice, #cSharp, #ruby, #python, #javaScript, #swift{
   display: none;
 }
 

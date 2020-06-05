@@ -11,92 +11,93 @@
   </head>
 
   <body>
-    <div class="jumbotron">
-      <h1><strong>Programming Languages and you</strong></h1>
-      <p><em>Please take the time to fill out this brief survey to find out which language would work best for you</em></p>
+    <div id="all">
+      <div class="jumbotron">
+        <h1><strong>Programming Languages and you</strong></h1>
+        <p><em>Please take the time to fill out this brief survey to find out which language would work best for you</em></p>
+      </div>
+      <div class="container">
+        <h2>Please select one answer for each field</h2>
+        <form id="questions">
+          <div class="form-group">
+            <label for="name">Please enter you name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="container">
+            <h3>Which Operating System is best for you?</h3>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="oS" id="operatingSystem" value="windows">
+              <label class="form-check-label" for="operatingSystem">Windows</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="oS" id="operatingSystem" value="apple">
+              <label class="form-check-label" for="operatingSystem">Apple</label>
+            </div>
+          </div>
+          <div class="container">
+            <h3>Whats your budget?</h3>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="budget" id="languageBudget" value="cost">
+              <label class="form-check-label" for="languageBudget">I might upgrade to premium</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="budget" id="languageBudget" value="free">
+              <label class="form-check-label" for="languageBudget">Free is for me</label>
+            </div>
+          </div>
+          <div class="container">
+            <h3>Whats your workflow like?</h3>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="workStyle" id="workFlow" value="easy">
+              <label class="form-check-label" for="workFlow">I prefer a language that is easy to understand</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="workStyle" id="workFlow" value="hard">
+              <label class="form-check-label" for="workFlow">I prefer a language that offers complete customability</label>
+            </div>
+          </div>
+          <div class="container">
+            <h3>What do you want to do with your programming?</h3>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="develop" id="programDevelopment" value="webDev">
+              <label class="form-check-label" for="programDevelopment">Web Development</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="develop" id="programDevelopment" value="software">
+              <label class="form-check-label" for="programDevelopment">Software engineer</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="develop" id="programDevelopment" value="gameDev">
+              <label class="form-check-label" for="programDevelopment">Game Design</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="develop" id="programDevelopment" value="data">
+              <label class="form-check-label" for="programDevelopment">Data analytics</label>
+            </div>
+          </div> 
+          <div class="container">
+            <h3>When the day is over how do you like to unwind?</h3>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="read">
+              <label class="form-check-label" for="freeTime">Read a book</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="game">
+              <label class="form-check-label" for="freeTime">Play games</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="exersize">
+              <label class="form-check-label" for="freeTime">Exersize or meditate</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="tv">
+              <label class="form-check-label" for="freeTime">Watch TV</label>
+            </div>
+          </div> 
+          <button type="submit" class="btn">Enter</button>
+        </form>
+      </div>
     </div>
-    <div class="container">
-      <h2>Please select one answer for each field</h2>
-      <form id="questions">
-        <div class="form-group">
-          <label for="name">Please enter you name</label>
-          <input id="name" class="form-control" type="text">
-        </div>
-        <div class="container">
-          <h3>Which Operating System is best for you?</h3>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="oS" id="operatingSystem" value="windows">
-            <label class="form-check-label" for="operatingSystem">Windows</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="oS" id="operatingSystem" value="apple">
-            <label class="form-check-label" for="operatingSystem">Apple</label>
-          </div>
-        </div>
-        <div class="container">
-          <h3>Whats your budget?</h3>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="budget" id="languageBudget" value="cost">
-            <label class="form-check-label" for="languageBudget">I might upgrade to premium</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="budget" id="languageBudget" value="free">
-            <label class="form-check-label" for="languageBudget">Free is for me</label>
-          </div>
-        </div>
-        <div class="container">
-          <h3>Whats your workflow like?</h3>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="workStyle" id="workFlow" value="easy">
-            <label class="form-check-label" for="workFlow">I prefer a language that is easy to understand</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="workStyle" id="workFlow" value="hard">
-            <label class="form-check-label" for="workFlow">I prefer a language that offers complete customability</label>
-          </div>
-        </div>
-        <div class="container">
-          <h3>What do you want to do with your programming?</h3>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="develop" id="programDevelopment" value="webDev">
-            <label class="form-check-label" for="programDevelopment">Web Development</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="develop" id="programDevelopment" value="software">
-            <label class="form-check-label" for="programDevelopment">Software engineer</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="develop" id="programDevelopment" value="gameDev">
-            <label class="form-check-label" for="programDevelopment">Game Design</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="develop" id="programDevelopment" value="data">
-            <label class="form-check-label" for="programDevelopment">Data analytics</label>
-          </div>
-        </div> 
-        <div class="container">
-          <h3>When the day is over how do you like to unwind?</h3>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="read">
-            <label class="form-check-label" for="freeTime">Read a book</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="game">
-            <label class="form-check-label" for="freeTime">Play games</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="exersize">
-            <label class="form-check-label" for="freeTime">Exersize or meditate</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="tv">
-            <label class="form-check-label" for="freeTime">Watch TV</label>
-          </div>
-        </div> 
-        <button type="submit" class="btn">Enter</button>
-      </form>
-    </div>
-
     <div id="choice">
       <h1><strong>Results</strong></h1>
       <p>Well <span class="name"></span> we have analyzed your answers and here is what we think would be the perfect fit.</p>
@@ -107,26 +108,31 @@
         <p>Ruby is used for simulations, 3D modeling, and to manage and track information.</p>
         <a href="https://www.ruby-lang.org/en/">Learn more about Ruby here</a>
         <img src="images/ruby.png" alt="Ruby logo">
+        <button type="reset" class="btn">Reset</button>
       </div>
       <div id="cSharp">
         <p>C# helps developers create XML web services and Microsoft .NET-connected applications for Windows operating systems and the internet.</p>
         <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">Learn more about C# here!</a>
         <img src="images/Csharp.png" alt="C# logo">
+        <button type="reset" class="btn">Reset</button>
       </div>
       <div id="javaScript">
         <p>JavaScript is used primarily in Web development to manipulate various page elements and make them more dynamic, including scrolling abilities, printing the time and date, creating a calendar and other tasks not possible through plain HTML. It can also be used to create games and APIs.</p>
         <a href="https://www.javascript.com/">Learn more about JavaScript here!</a>
         <img src="images/js.png" alt="JavaScript logo">
+        <button type="reset" class="btn">Reset</button>
       </div>
       <div id="python">
         <p>Python lets you work quickly to integrate systems as a scripting or glue language. It’s also suited for Rapid Application Develop (RAD).</p>
         <a href="https://www.python.org/">Learn more about Python here!</a>
         <img src="images/python.png" alt="Python logo">
+        <button type="reset" class="btn">Reset</button>
       </div>
       <div id="swift">
         <p>Swift is primarily used by developers to create apps for iOS and OS X.</p>
         <a href="https://developer.apple.com/swift/">Learn more about Swift here!</a>
         <img src="images/swift.png" alt="Swift logo">
+        <button type="reset" class="btn">Reset</button>
       </div>
     </div>
   </body>
