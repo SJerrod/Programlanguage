@@ -1,7 +1,4 @@
-#choice {
+#choice, .languages {
   display: none;
 }
 
-.languages {
-  display: none;
-}
