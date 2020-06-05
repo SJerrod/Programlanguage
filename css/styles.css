@@ -2,7 +2,51 @@
   display: none;
 }
 
-/* .languages {
-  display: none;
-} */
+.jumbotron h1 {
+  text-align: center;
+  background-color: rgb(49, 179, 179);
+  border-style: double;
+}
 
+.jumbotron h3 {
+  padding-left: 50px;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.jumbotron ol {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.jumbotron img {
+  float: right;
+}
+
+.jumbotron p {
+  background-color: rgb(49, 179, 179);
+  font-size: 25px;
+  padding-left: 25px;
+  border-style: double;
+  font-weight: bold;
+}
+
+#questions {
+  padding-left: 25px;
+}
+
+#questions h3 span{
+  text-decoration: underline;
+  background-color: rgb(49, 179, 179);
+  padding: 5px;
+  border-style: double;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.btn {
+  background-color: rgb(49, 179, 179);
+  font-size: 15px;
+}

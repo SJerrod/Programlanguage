@@ -73,6 +73,7 @@ $(document).ready(function() {
       $("#python").hide();
       $("#javaScript").hide();
       $("#swift").hide();
+      $("#choice").hide();
     });
 
     event.preventDefault();
