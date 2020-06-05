@@ -50,3 +50,13 @@ body {
   background-color: rgb(49, 179, 179);
   font-size: 15px;
 }
+
+h4{
+  text-decoration: underline;
+  padding-left: 50px;
+}
+
+.languages img{
+  float: right;
+  padding-right: 50px;
+}
