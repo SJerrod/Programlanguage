@@ -7,14 +7,22 @@ $(document).ready(function() {
     let develop = $("input:radio[name=develop]:checked").val();
     let unwind = $("input:radio[name=unwind]:checked").val();
     
-    // $("#cSharp").hide();
-    // $("#ruby").hide();
-    // $("#python").hide();
-    // $("#javaScript").hide();
-    // $("#swift").hide();
+    $("#cSharp").hide();
+    $("#ruby").hide();
+    $("#python").hide();
+    $("#javaScript").hide();
+    $("#swift").hide();
 
-    if(oS === "windows" ) {
-      $("#cSharp").show;
+    if(oS === "windows" && workStyle === "easy" && develop === "webDev") {
+      $("#python").show();
+    } else if (oS === "windows" && workStyle === "easy" && develop === "software") {
+      $("#python").show();
+    }
+
+    if(oS === "windows" && workStyle === "easy" && develop === "gameDev") {
+      $("#cSharp").show();
+    } else if (oS === "windows" && workStyle === "easy" && develop === "data") {
+      $("#cSharp").show();
     }
     
     

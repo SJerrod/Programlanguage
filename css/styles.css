@@ -1,4 +1,8 @@
-#choice, .languages {
+#choice {
   display: none;
 }
+
+/* .languages {
+  display: none;
+} */
 
