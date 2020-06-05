@@ -8,7 +8,7 @@
 
 ## Setup
 
-* [Open in Github]()
+* [Open in Github](https://sjerrod.github.io/Programlanguage/)
 * Clone repository 
 * Copy path
 * Open through browser or preview
