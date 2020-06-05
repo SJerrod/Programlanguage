@@ -17,7 +17,7 @@
     </div>
     <div class="container">
       <h2>Please select one answer for each field</h2>
-      <form id="name">
+      <form id="questions">
         <div class="form-group">
           <label for="name">Please enter you name</label>
           <input id="name" class="form-control" type="text">
@@ -31,6 +31,28 @@
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="oS" id="operatingSystem" value="apple">
             <label class="form-check-label" for="operatingSystem">Apple</label>
+          </div>
+        </div>
+        <div class="container">
+          <h3>Whats your budget?</h3>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="budget" id="languageBudget" value="cost">
+            <label class="form-check-label" for="languageBudget">I might upgrade to premium</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="budget" id="languageBudget" value="free">
+            <label class="form-check-label" for="languageBudget">Free is for me</label>
+          </div>
+        </div>
+        <div class="container">
+          <h3>Whats your workflow like?</h3>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="workStyle" id="workFlow" value="easy">
+            <label class="form-check-label" for="workFlow">I prefer a language that is easy to understand</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="workStyle" id="workFlow" value="hard">
+            <label class="form-check-label" for="workFlow">I prefer a language that offers complete customability</label>
           </div>
         </div>
         <div class="container">
@@ -52,8 +74,32 @@
             <label class="form-check-label" for="programDevelopment">Data analytics</label>
           </div>
         </div> 
+        <div class="container">
+          <h3>When the day is over how do you like to unwind?</h3>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="read">
+            <label class="form-check-label" for="freeTime">Read a book</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="game">
+            <label class="form-check-label" for="freeTime">Play games</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="exersize">
+            <label class="form-check-label" for="freeTime">Exersize or meditate</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="unwind" id="freeTime" value="tv">
+            <label class="form-check-label" for="freeTime">Watch TV</label>
+          </div>
+        </div> 
         <button type="submit" class="btn">Enter</button>
       </form>
+    </div>
+
+    <div id="choice">
+      <h1><strong>Results</strong></h1>
+      <p>Well <span class="name"></span> we have analyzed your answers and here is what we think would be the perfect fit.</p>
     </div>
 
     <div class="languages">
