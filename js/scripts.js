@@ -16,23 +16,23 @@ $(document).ready(function() {
     if(oS === "windows" && workStyle === "easy" && develop === "webDev") {
       $("#python").show();
     } else if (oS === "windows" && workStyle === "easy" && develop === "software") {
-      $("#python").show();
+      $("#ruby").show();
     }
 
     if(oS === "windows" && workStyle === "easy" && develop === "gameDev") {
       $("#cSharp").show();
     } else if (oS === "windows" && workStyle === "easy" && develop === "data") {
-      $("#ruby").show();
+      $("#python").show();
     }
 
     if(oS === "windows" && workStyle === "hard" && develop === "webDev") {
       $("#javaScript").show();
     } else if (oS === "windows" && workStyle === "hard" && develop === "data") {
-      $("#javaScript").show();
+      $("#cSharp").show();
     }
 
     if(oS === "windows" && workStyle === "hard" && develop === "gameDev") {
-      $("#cSharp").show();
+      $("#javaScript").show();
     } else if (oS === "windows" && workStyle === "hard" && develop === "software") {
       $("#cSharp").show();
     }
@@ -56,7 +56,7 @@ $(document).ready(function() {
     }
 
     if(oS === "apple" && workStyle === "hard" && develop === "gameDev") {
-      $("#swift").show();
+      $("#javaScript").show();
     } else if (oS === "apple" && workStyle === "hard" && develop === "software") {
       $("#swift").show();
     }
