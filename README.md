@@ -8,10 +8,13 @@
 
 ## Setup
 
-* [Open in Github](https://sjerrod.github.io/Programlanguage/)
-* Clone repository 
-* Copy path
-* Open through browser or preview
+* [Open page in browser](https://sjerrod.github.io/Programlanguage/)
+* [Github repo](https://github.com/SJerrod/Programlanguage)
+* To open via Download click clone or download
+* Double click index.html to open in web browser
+* Or clone the directory onto your computer
+* Then open it using your prefered code/ text editor
+* Open index.html with prefered browser
 
 ## Bugs
 
